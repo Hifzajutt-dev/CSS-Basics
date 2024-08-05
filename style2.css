@@ -1,0 +1,42 @@
+/* Elementor Selector */
+ h1{
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+
+}
+h3{
+    background-color: violet;
+}
+
+h2{
+    background-color: aquamarine;
+}
+/* Class Selector */
+.point{
+    background-color: aqua;
+}
+.main-heading{
+    background-color: rgb(37, 2, 77);
+}
+
+/* Id Selector */
+#unique{
+    background-color: rgb(149, 219, 37);
+}
+#heading{
+    background-color: yellow;
+}
+
+
+/* Universal selector */
+*{
+    background-color: green;
+}
+
+body{
+    background-color: bisque;
+}
+
+html{
+    background-color: rgb(156, 223, 32);
+}
