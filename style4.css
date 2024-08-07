@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+h4{
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+h3{
+    background-color: rgba(34, 178, 58, 0.56);
+    text-transform: uppercase;
+    font-style: oblique;
+    word-spacing: 50px;
+    
+}
+p{ 
+    background-color:yellow ;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 20px;
+}
+
+
+h1{
+    background-color: blueviolet;
+    text-decoration: line-through;
+    text-align: center;
+}
