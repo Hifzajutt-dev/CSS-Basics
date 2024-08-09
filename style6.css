@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(218, 81, 81);
+  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow-y: auto;
+  color: white;
+}
+
+nav {
+  position: sticky;
+  right: 120px;
+  height: 25px;
+}
+
+.stick1 {
+  top: 0px;
+  background-color: rgb(5, 88, 88);
+  color: white;
+}
+
+.stick2 {
+  top: 25px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.stick3 {
+  top: 50px;
+  background-color: darkred;
+  color: white;
+}
+.stick4 {
+    top: 75px;
+    background-color: darkturquoise;
+    color: white;
+  }
+  .stick5 {
+    top: 100px;
+    background-color: rgb(33, 246, 33);
+    color: white;
+  }
+  .stick6 {
+    top: 125px;
+    background-color: rgb(237, 202, 5);
+    color: white;
+  }
+  .stick7 {
+    top: 150px;
+    background-color: rgb(9, 13, 0);
+    color: white;
+  }
+  .stick8 {
+    top: 175px;
+    background-color: rgb(45, 129, 101);
+    color: white;
+  }
+
+  .stick9 {
+    top: 200px;
+    background-color: crimson;
+    color: white;
+  }
+  .stick10 {
+    top: 225px;
+    background-color: rgb(90, 1, 1);
+    color: white;
+  
+  }
+  
