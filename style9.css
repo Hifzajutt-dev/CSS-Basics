@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(177, 186, 179);
+}
+
+html {
+  
+  font-size: calc(12px + 1vmin);
+}
+div.box2{
+  height: 8rem;
+  width: 10rem;
+  border: 0.2rem solid white;
+  background-color: darkgoldenrod;
+  transition-property: width,height,background-color,border-radius;
+  transition-duration: 3s;
+  margin: auto;
+}
+div.box2:hover{
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(4, 70, 21);
+  border-radius: 80% 0% 70% 0%;
+}
+div.box{
+  height: 16rem;
+  width: 17rem;
+  border: 0.4rem solid white;
+  margin: auto;
+}
+div.box1{
+  height: 5rem;
+  width: 5rem;
+  background-color: deeppink;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+@keyframes move {
+  0%,100%{
+    transform: translate(0px,0px);
+  }
+  25%{
+    transform: translate(200px,0);
+  }
+  50%{
+    transform: translate(200px,200px);
+  }
+  75%{
+    transform: translate(0,200px);
+  }
+  
+}
+
