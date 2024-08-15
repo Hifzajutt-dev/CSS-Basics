@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: calc(12px+1vmin);
+}
+.box{
+    height: 100%;
+    width: 100vh;
+}
+/* Button 1 */
+.btn1{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 4rem;
+    border: 0.2rem solid green;
+    background-color: white;
+    color: darkblue;
+    border-radius: 0.7rem;
+    position: relative;
+    z-index: 1;
+    margin-left: 35rem;
+    overflow: hidden;
+    
+}
+.btn1::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: maroon;
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    z-index: -1;
+    transform: translateX(-80%);
+    transition: .5s all ease;
+}
+.btn1:hover::before{
+    transform: translateX(0%); 
+
+}
+.btn1:hover{
+    color: white;
+    background-color: white;
+}
+
+
+ /* Button 2 */
+.btn2{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 3rem;
+    border: 0.2rem solid rgb(9, 14, 105);
+    background-color: white;
+    color: rgb(192, 15, 15);
+    border-radius: 0.7rem;
+    position: relative;
+    z-index: 1;
+    margin-left: 35rem;
+    overflow: hidden;
+}
+.btn2::before{
+    content: '';
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 103, 5);
+    position: absolute; 
+    z-index: -1;
+    transform: translateX(-90%);
+    transition: .5s all ease;
+}
+.btn2:hover::before{
+   transform: translateX(-50%);
+
+}
+.btn2:hover{
+    color: white;
+    background-color: white;
+}
+.btn2::after{
+    content: '';
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 103, 5);
+    position: absolute; 
+    z-index: -1;
+    transform: translateX(90%);
+    transition: .5s all ease;
+}
+.btn2:hover::after{
+    transform: translateX(50%);
+ 
+ } 
+ .btn2:hover{
+    color: white;
+    background-color: white;
+    
+}
+    /* Button 3 */
+.btn3{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 3rem;
+    border: 0.2rem solid rgb(9, 14, 105);
+    background-color: white;
+    color: rgb(192, 15, 15);
+    border-radius: 0.7rem;
+    position: relative;
+    z-index: 1;
+    margin-left: 35rem;
+    overflow: hidden;
+}
+.btn3::before{
+    content: '';
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(225, 233, 11);
+    position: absolute; 
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: .5s all ease;
+}
+.btn3:hover::before{
+   transform: translateX(-50%);
+
+}
+.btn3:hover{
+    color: white;
+    background-color: white;
+}
+.btn3::after{
+    content: '';
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(225, 233, 11);
+    position: absolute; 
+    z-index: -1;
+    transform: translateX(100%);
+    transition: .5s all ease;
+}
+.btn3:hover::after{
+    transform: translateX(50%);
+ 
+ } 
+ .btn3:hover{
+    color: rgb(8, 14, 5);
+    background-color: rgb(250, 255, 255);
+}
+   /* Button 4 */
+.btn4{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 3rem;
+    border: 0.2rem solid rgb(9, 14, 105);
+    background-color: white;
+    color: rgb(2, 71, 25);
+    border-radius: 0.7rem;
+    position: relative;
+    z-index: 1;
+    margin-left: 35rem;
+    overflow: hidden;
+}
+.btn4::before{
+    content: '';
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(225, 233, 11);
+    position: absolute; 
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: .5s all ease;
+}
+.btn4:hover::before{
+   transform: translatey(-50%);
+
+}
+.btn4:hover{
+    color: white;
+    background-color: white;
+}
+.btn4::after{
+    content: '';
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(190, 12, 181);
+    position: absolute; 
+    z-index: -1;
+    transform: translateX(100%);
+    transition: .5s all ease;
+}
+.btn4:hover::after{
+    transform: translatey(50%);
+ 
+ } 
+ .btn4:hover{
+    color: rgb(8, 14, 5);
+    background-color: rgb(250, 255, 255);
+}
+
