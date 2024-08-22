@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Decendant selector */
+div.box p{
+    background-color: aqua;
+}
+/* Adjacent selector  */
+div + h5{
+    background-color: crimson;
+ }
+ h2 + p{
+    background-color: lightcoral;
+ }
+
+ /* child selector */
+ div > h2{
+    background-color: blueviolet;
+ }
+ p > h4{
+    background-color: chocolate;
+ }
+/* General selector */
+ div ~ p {
+    background-color: darkred;
+ }
+ div ~ h3{
+    background-color: rgb(22, 125, 134);
+ }
+ div p{
+   background-color: blueviolet;
+ }
+ div>span{
+   background-color: aqua;
+ }
+ span ~ p{
+   background-color: crimson;
+ }
