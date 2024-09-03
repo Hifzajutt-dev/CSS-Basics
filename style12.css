@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: calc(10px+1vmin);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+   
+}
+div.box{
+    height: 18rem;
+    width: 18rem;
+    background-color: rgba(255, 255, 255, 0.916);
+    border-radius: 0.4rem;
+    border: 1.5px solid black;
+    perspective: 80px;
+    
+}
+div.box0{
+        margin: 0 auto;
+        margin-top: 2rem;
+        height: 10rem;
+        width: 10rem;
+        background-color: rgb(11, 153, 158);
+}
+span{
+    display: inline-block;
+   margin-left: 6.5rem;
+   margin-top: 2.5rem;
+   font-size: larger;
+}
+
+/* Rotate transform */
+   
+div.box1{
+ transition: 0.2s linear;
+}
+div.Box1:hover{
+ transform: rotate(45deg);
+ }
+div.box2{
+        transition: 0.2s linear;
+}
+div.Box2:hover{
+        transform: rotatex(75deg);     
+     }
+    
+div.box3{
+    transition: 0.2s linear;
+                
+            }
+div.Box3:hover{
+    transform: rotateY(65deg);
+}
+        
+div.box4{
+    transition: 0.2s linear;
+}
+ div.Box4:hover{
+     transform: rotateZ(45deg);
+                    
+ }
+ div.box5{
+    transition: 0.2s linear;
+}
+div.Box5:hover{
+     transform: translate(70px);
+                    
+ }
+ div.box6{
+    transition: 0.2s linear;
+    perspective: 100px;
+}
+ div.Box6:hover{
+     transform: translateX(45px);
+                    
+ }
+ div.box7{
+    transition: 0.2s linear;
+}
+ div.Box7:hover{
+     transform: translateY(80px);
+                    
+ }
+div.box>img{
+    transition: 0.2s linear;
+    perspective: 100px;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+   height: 10rem;
+   width: 10rem;
+}
+ div.box>img:hover{
+     transform: translateZ(20px);
+                    
+ }
+  div.box>img>span{
+    font-size: larger;
+    display: inline-block;
+    margin-bottom: 7rem;
+
+ }
+
